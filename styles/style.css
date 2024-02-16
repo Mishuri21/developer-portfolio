@@ -13,16 +13,27 @@
     border: 0;
     font-size: 20px;
     font-weight: 700;
-    color:  rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding: 15px 35px;
 }
 
 /* common styles area end */
+/* header styles */
+.header {
+    background: rgb(255, 248, 243);
+    background-image: url('./../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+/* header styles end */
+
 /* nav related styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -43,3 +54,38 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
 }
+
+/* banner section styles start */
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px 0px 200px;
+}
+
+.banner-greeting {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.banner-title {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+    margin: 20px 0px 0px 0px;
+}
+
+.banner-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0px 30px 0px;
+}
+
+.profile-img {
+    width: 85%;
+}
+
+/* banner section styles end */
