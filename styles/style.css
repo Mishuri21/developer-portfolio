@@ -95,14 +95,17 @@ nav ul li a {
 /* -- ********-----------------***********--- */
 
 /* main section styles start */
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
-/* about section start */
-.about {
 
+main section {
+    /* margin-top: 130px; */
 }
+
+/* about section start */
+.about {}
 
 .about-content {}
 
@@ -110,9 +113,10 @@ main{
     border-radius: 10px;
     background: rgb(255, 248, 243);
     padding: 120px 150px;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     text-align: center;
 }
+
 .section-title {
     color: rgb(24, 24, 24);
     font-size: 35px;
@@ -129,9 +133,94 @@ main{
     line-height: 30px;
 }
 
-.about-info-container{
-    display:flex;
+.about-info-container {
+    display: flex;
     justify-content: space-around;
 }
+
 /* about section end */
+
+/* what i do section start */
+.what-i-do-content {
+    padding: 120px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 25px;
+}
+
+.skill {
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.skil-title {
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* resume section start */
+.resume-section {
+    margin: 130px 0px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 60px;
+}
+
+.resume-column-title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item{
+    /* padding: 20px; */
+}
+
+.resume-item-title {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.resume-item-institute {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.resume-item-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.resume-container hr{
+    margin: 30px 0px;
+    opacity: 0.3;
+}
+
+
+.download-btn{
+    margin-top: 40px;
+}
+.download-cv{
+    text-align: center;
+}
 /* main section styles end */
