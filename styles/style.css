@@ -21,9 +21,9 @@
 /* header section styles start */
 .header {
     background: rgb(255, 248, 243);
-    background-image: url('./../images/header_bg.png');
+    background-image: url('./../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position:right bottom, left;
 }
 
 /* header styles end */
@@ -85,8 +85,13 @@ nav ul li a {
     line-height: 30px;
 }
 
+.banner-profile{
+    display: flex;
+    text-align: right bottom;
+}
 .profile-img {
     width: 85%;
+    /* margin-bottom: 0px; */
 }
 
 /* banner section styles end */
