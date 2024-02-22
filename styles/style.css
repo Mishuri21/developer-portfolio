@@ -240,10 +240,12 @@ footer {
 .footer-section {
     max-width: 1140px;
     margin: 0px auto;
+    /* padding: 20px 0px; */
 }
 .footer-container{
     display: flex;
     gap: 100px;
+    padding: 100px 0px;
 }
 .footer-column{
     
